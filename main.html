@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PiggyVest Calculator</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  
+  <main class="main">
+  <div class="PiggyVest">
+    <p>PiggyVest Daily Interest Calculator</p>
+  <form action="#">
+   <p class="principal">
+    <label>
+    <input type="number" min="0" class="principal" placeholder="Monthly Premium (Naira)">
+   </label>
+    </p>
+    <p class="interval">
+    <label>
+    <input type="number" min="0" class="interval" placeholder="Frequency of payment (days)">
+    </label>
+    </p>
+    <p class="period">
+    <label>
+    <input type="number" min="0" class="period" placeholder="Incubation Period (days)">
+    </label>
+    </p>
+    <p>
+    <button type="button" onclick="resultToBrowser()">Calculate</button>
+    </p>
+    <p class="result"></p>
+  </form>
+  </div>
+  </main>
+  <footer class="footer">
+    <section class="footer-text">
+    <h2>Group 3</h2>
+    <p>Fyne Tonye Angala</p>
+    <p>Ibukuoluwa Kehinde</p>
+  </section>
+  </footer>
+  <script src="main.js"></script> 
+</body>
+</html>
